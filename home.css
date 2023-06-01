@@ -1,0 +1,46 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
+/* Background */
+body {
+
+    background: linear-gradient(113.61deg,#110F0F 37.34%, #2F2F2F 101.1%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+/* categories displayed horizontally */
+ul {
+    list-style-type: none;
+    position: absolute;
+    width: 468px;
+    height: 26px;
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* Logo Position */
+nav > img{
+    position: absolute;
+    width: 236px;
+    height: 148px;
+    padding-left: 10px;
+    padding-top: 16px;
+}
+
+
